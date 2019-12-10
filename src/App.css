@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+@font-face{
+    font-family: 'DS-DIGITAL';
+    src: url('https://res.cloudinary.com/dzsmdyknz/raw/upload/v1532588680/fcc-drum-machine/ds-digital-font/DS-DIGIT.TTF');
+    src: url('https://res.cloudinary.com/dzsmdyknz/raw/upload/v1532588680/fcc-drum-machine/ds-digital-font/DS-DIGIB.TTF');
+    src: url('https://res.cloudinary.com/dzsmdyknz/raw/upload/v1532588679/fcc-drum-machine/ds-digital-font/DS-DIGII.TTF');
+    src: url('https://res.cloudinary.com/dzsmdyknz/raw/upload/v1532588679/fcc-drum-machine/ds-digital-font/DS-DIGI.TTF');
+}
+
+* {
+  font-family: Russo One;
+ }
+
+
+h1{
+ margin-top:10px;
+  text-align: center;
+
+}
+
+
+body {
+      background-color:#e7e7e7;
+}
+
+#display {
+      height: 25vh;
+      display: flex;
+      width: 50%;
+      font-weight: 700;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      align-items: center;
+      font-size: 2em;
+      font-family: 'DS-DIGITAL', sans-serif;
+      font-style: italic;
+      text-align: center;
+      justify-content: center;
+      border: 1px solid black;
+      border-bottom: none;
+      background: linear-gradient(to bottom right, hsla(204, 70%, 53%,1) 12.5%, rgba(255,255,255,0.25) 25%, hsla(204, 70%, 53%,1) 50%, rgba(255,255,255,0.25) 75%, hsla(204, 70%, 53%,1) 100%);
+      opacity: 0.6;
+}
+    
+   
+#drum-pads {
+  background: whitesmoke;
+      height: 69vh;
+      width: 50%;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;    
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      border-bottom-right-radius:15px ;
+      border-bottom-left-radius:15px ;
+    }
+    
+    .drum-pad:nth-child(1){
+      margin-top:100px;
+    }
+    .drum-pad {
+      border: 1px solid black;
+      height: 17%;
+      width: 29.5%;
+      display:inline-block;
+      justify-content: center;
+      align-items: center;
+      
+      margin-left:2.5%;
+      margin-top:2.5%;
+      color:whitesmoke;
+      border-radius:10px ;
+      background:linear-gradient(to bottom, #404040 12.5%, #606060 25%, #404040 50%, #606060 75%, #404040 100%);
+    }
+
+    .active {
+      text-shadow: 3px 2px hsla(204, 70%, 53%,1); 
+    }
+    .passive{
+     box-shadow:none;
+     text-shadow:none;
+    }
+    
+
+#settings{
+  display: block;
+  overflow: hidden;
+
+  
+  clear: both;
+  margin:2.5%;
+}
+label{
+  opacity: 0.7;
+}
+#power{
+  color:#91bf96;
+  text-shadow: 1px 1px black ;
+  width: 110px;
+  opacity: 0.8;
+  padding-left:30px ;
+  height: 40px;
+  border: 1px solid black;
+
+  font-size: 2em;
+  border-radius: 20px;
+  background: #e7e7e7;
+  text-align:   left;
+  margin-bottom:15px;
+  margin-top:10px;
+}
+
+#volume{
+  position: relative;
+  display: block;
+  width: 90%;
+  
+}
+input{
+  position: relative;
+  top:8px;
+  height: 30px;
+  width: 200px;
+  left:10px;
+ }
+.power_btn
+{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-left: 75px;
+  top: -107%;
+  background: #91bf96;
+  cursor: pointer;
+  border-radius: 50%;
+ 
+}
+@media screen and (max-width: 1276px) {
+ 
+ 
+    #display{
+     
+      font-size: 1.5em;
+   
+    }
+    label{
+      padding-left:10px;
+    }
+    .power{
+      font-size: 1.5em;
+      
+    }
+    input{
+      width: 120px;
+    }
+    
+  
+  
+}
