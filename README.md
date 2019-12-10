@@ -1,5 +1,6 @@
 # Drum-Machine
-designing and developing a web application for displaying the random quotes for different screen sizes
+designing and developing a web application for making funny tunes by pressing keys on the keyboard in different sequences,
+works for different screen sizes
 
 Try it! ----> 
 
