@@ -2,7 +2,7 @@
 designing and developing a web application for making funny tunes by pressing keys on the keyboard in different sequences,
 works for different screen sizes
 
-Try it! ----> 
+Try it! ----> https://codepen.io/oxana-krisyuk/full/YzPXgqV
 
 ## Technology:
 JavaScript, HTML, CSS, React
